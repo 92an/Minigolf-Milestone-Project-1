@@ -34,6 +34,14 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+.inlineBlock {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
 /*---------------  hover.css effects */
 
 .hvr-sweep-to-right:before {
@@ -50,6 +58,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #fafafa
 }
 
+.titleSection {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .bannerImage {
     display: block;
     margin-right: auto;
@@ -58,11 +71,14 @@ h1, h2, h3, h4, h5, h6 {
     height: 350px;
 }
 
+.navContainer {
+    margin: 0;
+    background-color: #0e351d;
+}
+
 .list-inline-item {
     margin: 10px,0;
 }
-
-
 
 .menuItem {
     display: inline-block;
@@ -108,3 +124,41 @@ h1, h2, h3, h4, h5, h6 {
     color: yellow;
 }
 
+
+/*---------------  Footer */
+
+footer {
+    background-color: #0e351d;
+    color: #fafafa;
+    min-height: 100px;
+    margin: 0;    
+}
+
+footer p {
+    margin-top: 10px;
+    text-align: center; 
+}
+
+.socialMediaLinks {
+    margin: 10px 0;
+}
+
+.socialMediaLinks li a i {
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    color: #fafafa;
+    background: #236915
+}
+
+.socialMediaLinks li a i:hover {
+    background: black;  
+    color: yellow;
+}
+
+#footerRow {
+    padding-top: 20px;
+}
