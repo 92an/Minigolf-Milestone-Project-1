@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+
+/*---------------  color section*/
+
+.titleSectionBGcolor {
+    background-color: #0e351d
+}
+
+.navBar {
+    background-color: #0e351d;   
+}
+
+
+
+/*---------------  General rules */
+
+.sectionHeading {
+    font-family: "Roboto" sans-serif;
+    font-weight: 500;
+}
+
+.sectionSubheading {
+    font-family: "Exo" sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*---------------  hover.css effects */
+
+.hvr-sweep-to-right:before {
+        background: rgba(154, 184, 20, 0.3)
+}
+
+/*---------------  Header */
+
+.titleSectionBGcolor .sectionHeading {
+    color: #fafafa
+}
+
+.titleSectionBGcolor .sectionSubheading {
+    color: #fafafa
+}
+
+.bannerImage {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    height: 350px;
+}
+
+.list-inline-item {
+    margin: 10px,0;
+}
+
+
+
+.menuItem {
+    display: inline-block;
+    position: relative;
+    width: 220px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 0;
+    background-color: #0e351d;
+    text-align: center;
+    border: solid yellow 1px;
+}
+
+.menuItem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.menuItem a span {
+    font-size: 26px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.activeItem {
+    display: inline-block;
+    position: relative;
+    width: 220px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    border: solid white 1px;
+}
+
+.activeItem a {
+    width: 100%;
+    text-decoration: none;
+    color: yellow;
+}
+
