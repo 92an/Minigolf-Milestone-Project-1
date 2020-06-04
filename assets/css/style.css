@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-
 /*---------------  color section*/
 
 .titleSectionBGcolor {
@@ -12,7 +11,11 @@
     background-color: #0e351d;   
 }
 
+/*---------------  General bootstrap override */
 
+.row {
+    margin: 0;
+}
 
 /*---------------  General rules */
 
@@ -22,6 +25,11 @@
 }
 
 .sectionSubheading {
+    font-family: "Exo" sans-serif;
+    font-weight: 300;
+}
+
+.sectionHeading p {
     font-family: "Exo" sans-serif;
     font-weight: 300;
 }
@@ -40,6 +48,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .block {
     display: block;
+}
+
+.homeBlock {
+    margin: 0 15%;
+}
+
+.rowBot {
+    margin-bottom: 50px;
+    margin-top: 75px;
 }
 
 /*---------------  hover.css effects */
@@ -162,3 +179,80 @@ footer p {
 #footerRow {
     padding-top: 20px;
 }
+
+
+/*---------------  Home Section */
+
+.jumbotron {
+    margin: 20px auto;
+    width: 75%;
+    background: #f3e300
+}
+
+.jumbotron .display-4 {
+    text-align: center;
+}
+
+.jumbotron p {
+    align-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.jumbotron ul {
+    list-style-type: none;
+    margin-left: 5%;
+}
+
+
+
+#homeImage {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+/*---------------  About Section */
+
+#ruleImg {
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+#rulesList li {
+    margin: 10px 0;
+}
+
+.historySection {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#trackImage {
+    display: block;
+    height: 300px;
+    width: 70%;
+    margin: auto;
+}
+
+/*---------------  Event Section */
+
+.alert {
+    margin-bottom: 0;
+}
+
+.alert p {
+    margin-top: 5px;
+}
+
+#eventImg {
+    height: 400px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
