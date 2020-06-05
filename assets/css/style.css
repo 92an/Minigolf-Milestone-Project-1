@@ -17,6 +17,12 @@
     margin: 0;
 }
 
+.btn-primary {
+    color: yellow;
+    background-color: black;
+    border-color: #fafafa;
+}
+
 /*---------------  General rules */
 
 .sectionHeading {
@@ -40,6 +46,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
 }
 
 .inlineBlock {
@@ -255,4 +265,95 @@ footer p {
     margin-bottom: 20px;
     margin-top: 0;
 }
+
+/*---------------  Price Section */
+
+.priceColumn {
+    background-color: rgba(246, 255, 51, 0.9);
+    color: red;
+    margin-bottom: 20px;
+}
+
+#priceHeading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.categoryList {
+    list-style: none;
+    padding-left: 15%;
+}
+
+.categoryList li {
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.priceListItem {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.priceList ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.priceList ul li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#priceImg {
+    display: block;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*---------------  Contact Section */
+
+.contactForm {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0e351d;
+}
+
+.contactForm h2 {
+    color: #fafafa;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.contactForm label {
+    color: #fafafa;
+    padding-top: 5px;
+}
+
+#emailHelp {
+    color: #fafafa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contactForm .btn {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
 
