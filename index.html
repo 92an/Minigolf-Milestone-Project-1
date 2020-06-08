@@ -12,111 +12,125 @@
 <body>
 
 <header>
-
-<!-- ----------------------------------------- Banner section --------------------------------------------------------- -->
-    
-    <div class="row">
+<!--  Banner section  -->
+<div class="container-fluid">
+    <div class="row  no-gutters">
         <div class="col titleSection text-center titleSectionBGcolor" >
             <h1 class="sectionHeading text-uppercase">Miniature Golf Adventure</h1>
-            <h3 class="sectionSubheading text-uppercase">fun for for the whole family</h3>
+            <h3 class="sectionSubheading text-uppercase col d-none d-md-block">fun for for the whole family</h3>
         </div>
     </div>
-    <div class="row titleSectionBGcolor">
+    <div class="row  no-gutters titleSectionBGcolor">
         <div class="col d-none d-md-block">
-        <img src="assets/img/bannerImg2.jpg" alt="bannerImage" class="container-fluid bannerImage no-gutters">
+            <img src="assets/img/bannerImg2.jpg" alt="bannerImage" class="container-fluid bannerImage no-gutters">
         </div>
     </div>
+</div>
+<!--  Navigation Bar  -->
 
-<!-- ---------------------------------------- Navigation Bar --------------------------------------------------------- -->
-
-    <div class="row no-gutters navContainer">
-        <div class="col">
-            <ul id="nav" class="navBar list-inline text-center">
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem activeItem">
-                    <a href="index.html" class="hvr-sweep-to-right"><span>Home</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="about.html"  class="hvr-sweep-to-right"><span>About</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="events.html"  class="hvr-sweep-to-right"><span>Events</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="price.html"  class="hvr-sweep-to-right"><span>Price</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="contact.html"  class="hvr-sweep-to-right"><span>Contact</span></a>
-                </li>
-<!-- ---------------------------------------- inserted empty li for alignemtn --------------------------------------------------------- -->
-                <li>
-                </li>
-<!-- --------------------------------------------------------------- ------------------------------------------------------------------ -->
-            </ul>
-        </div>    
-    </div>
-
+        <nav class="navbar-nav">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapseNav">
+                <i class="fa fa-bars"></i>
+            </button> 
+                <div class="collapse navbar-collapse" id="collapseNav">               
+                    <ul id="nav" class="navBar list-inline text-center">
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem activeItem">
+                            <a href="index.html" class="hvr-sweep-to-right"><span>Home</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="about.html"  class="hvr-sweep-to-right"><span>About</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="events.html"  class="hvr-sweep-to-right"><span>Events</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="price.html"  class="hvr-sweep-to-right"><span>Price</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="contact.html"  class="hvr-sweep-to-right"><span>Contact</span></a>
+                        </li>
+    <!--  inserted empty li for alignemtn -->
+                        <li>
+                        </li>
+    <!--                                  -->
+                    </ul>
+                </div>
+        </nav>
 </header>
 
 
 <section>
-
-
-
-
-
+<div class="container">
     <div class="row rowBot">
         <div class="col-md-6">
             <h4 class="sectionHeading text-center uppercase">About the club</h4>
             <br>
             <div class="text-center sectionHeading homeBlock">
-            <p>
-            Miniature Golf Adventure was founded in 1974. Our aim to spread the joy of miniature golf to the community.
-            We host regular activities for our members, from instructions, tournaments and other get togethers.
-            We have a store for snacks and refreshments readily available.             
-            </p>
-
-            <p><b><em>Welcome if you are ready to have some fun!</em></b></p>
+                <p>
+                    Miniature Golf Adventure was founded in 1974. Our aim to spread the joy of miniature golf to 
+                    the community. We are a local miniature golf club with located in Solna and believe in community 
+                    and family values. We are affiliated with the Swedish minigolf federation, and do occasionally 
+                    hold local tournaments and sometimes national tournaments    
+                </p>
+                <p>
+                    We offer state of the art tracks, both in felt and concrete. There are in total three tracks 
+                    to choose from. Two outdoor tracks and one indoor track. There are instructions for beginners 
+                    and lessons from more veteran members that volunteer. We have clubs that fit all sizes and offer 
+                    a well-diversified store where you can purchase food, drinks, and other snacks.  
+                </p>
+                <p><b><em>Welcome if you are ready to have some fun!</em></b></p>
             </div>
         </div>
-
+        
         <div class="col-md-6">
             <img id="homeImage" src="assets/img/golfingHomeImage.jpg" alt="golfImage">
         </div>
     </div>
 <br>
-
+</div>
 <div class="jumbotron">
   <h1 class="display-4 sectionHeading">Opening Hours!</h1>
   <br>
-  <p class="lead"> <b>NOTE!</b> Opening hours can change or differ during holidays, Feel free to contact us regarding any such question
-  or other matters. We will gladly help you.</p>
+  <p class="lead"> 
+    <b>NOTE!</b> Opening hours can change or differ during holidays, Feel free to contact us regarding any such question
+    or other matters. We will gladly help you.
+  </p>
   <hr class="my-4">
-  <ul class="sectionSubheading">
-    <li>Monday  : 16:00 - 22:00</li>
-    <li>Tuesday : 16:00 - 22:00</li>
-    <li>Wednesday : 16:00 - 22:00</li>
-    <li>Thursday : 18:00 - 22:00</li>
-    <li>Friday  : 14:00 - 20:00</li>
-    <li>Saturday : 11:00 - 22:00</li>
-    <li>Sunday : 11:00 - 19:00</li>
-  </ul>
+    <div class="row">
+        <div class="col">
+            <ul class="sectionSubheading">
+                <li>Monday  : 16:00 - 22:00</li>
+                <li>Tuesday : 16:00 - 22:00</li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="sectionSubheading">
+                <li>Wednesday : 16:00 - 22:00</li>
+                <li>Thursday : 18:00 - 22:00</li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="sectionSubheading">
+                <li>Friday  : 14:00 - 20:00</li>
+                <li>Weekends : 11:00 - 22:00</li>
+            </ul>
+        </div>
+    </div>
 </div>
 <br>
-
 </section>
-
 
 <footer class="container-fluid">
     <div id="footerRow" class="row">
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Adress:</h4>
-            <p class="block">Swedish road name ##</p>
-            <p class="block">### ## municipality name</p>
+            <p class="block">Råsundavägen 16</p>
+            <p class="block">155 22 Solna</p>
         </div>
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Contact:</h4>
-            <p class="block">firstname.lastname@MGA.xxx</p>
-            <p class="block">### - ### ## ##</p>
+            <p class="block">lars.janson@mga.com</p>
+            <p class="block">070 - 111 22 99</p>
         </div>
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Social Media:</h4>

@@ -12,131 +12,123 @@
 <body>
 
 <header>
-
-<!-- ----------------------------------------- Banner section --------------------------------------------------------- -->
-    
-    <div class="row">
+<!--  Banner section  -->
+<div class="container-fluid">
+    <div class="row  no-gutters">
         <div class="col titleSection text-center titleSectionBGcolor" >
             <h1 class="sectionHeading text-uppercase">Miniature Golf Adventure</h1>
-            <h3 class="sectionSubheading text-uppercase">fun for for the whole family</h3>
+            <h3 class="sectionSubheading text-uppercase col d-none d-md-block">fun for for the whole family</h3>
         </div>
     </div>
-    <div class="row titleSectionBGcolor">
+    <div class="row  no-gutters titleSectionBGcolor">
         <div class="col d-none d-md-block">
-        <img src="assets/img/bannerImg2.jpg" alt="bannerImage" class="container-fluid bannerImage no-gutters">
+            <img src="assets/img/bannerImg2.jpg" alt="bannerImage" class="container-fluid bannerImage no-gutters">
         </div>
     </div>
+</div>
+<!--  Navigation Bar  -->
 
-<!-- ---------------------------------------- Navigation Bar --------------------------------------------------------- -->
-
-    <div class="row no-gutters navContainer">
-        <div class="col">
-            <ul id="nav" class="navBar list-inline text-center">
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem ">
-                    <a href="index.html" class="hvr-sweep-to-right"><span>Home</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="about.html"  class="hvr-sweep-to-right"><span>About</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="events.html"  class="hvr-sweep-to-right"><span>Events</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem activeItem">
-                    <a href="price.html"  class="hvr-sweep-to-right"><span>Price</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="contact.html"  class="hvr-sweep-to-right"><span>Contact</span></a>
-                </li>
-<!-- ---------------------------------------- inserted empty li for alignemtn --------------------------------------------------------- -->
-                <li>
-                </li>
-<!-- --------------------------------------------------------------- ------------------------------------------------------------------ -->
-            </ul>
-        </div>    
-    </div>
-
+        <nav class="navbar-nav">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapseNav">
+                <i class="fa fa-bars"></i>
+            </button> 
+                <div class="collapse navbar-collapse" id="collapseNav">               
+                    <ul id="nav" class="navBar list-inline text-center">
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem ">
+                            <a href="index.html" class="hvr-sweep-to-right"><span>Home</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem ">
+                            <a href="about.html"  class="hvr-sweep-to-right"><span>About</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="events.html"  class="hvr-sweep-to-right"><span>Events</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem activeItem">
+                            <a href="price.html"  class="hvr-sweep-to-right"><span>Price</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="contact.html"  class="hvr-sweep-to-right"><span>Contact</span></a>
+                        </li>
+    <!--  inserted empty li for alignemtn -->
+                        <li>
+                        </li>
+    <!--                                  -->
+                    </ul>
+                </div>
+        </nav>
 </header>
 
-
 <section>
-
-<div class="row rowBot">
-    
-    <div class="col-md-6 priceColumn">
-            
+<div class="container">
+    <div class="row rowBot">
+        <div class="col-md-6 priceColumn">      
             <h4 id="priceHeading" class="sectionHeading text-center uppercase">Price</h4>
-            <ul class="categoryList">
-                <li>Senior: Above 65 years</li>
-                <li>Junior: Below 12 years</li>
-                <li>Studen: Requires student ID</li>
-            </ul>
-            <br>
-            <div class="sectionHeading homeBlock">
-                <ul class="priceList">
-                    <li>
-                         <h6 class="capitalize priceListItem">one day pass</h6>
-                         <ul>
-                            <li class="capitalize priceSubListItem">junior: 30kr</li>
-                            <li class="capitalize priceSubListItem">regular: 60kr</li>
-                            <li class="capitalize priceSubListItem">senior: 30kr</li>
-                        </ul>
-                    </li>
-                    <li>
-                         <h6 class="capitalize priceListItem">one month pass</h6>
-                         <ul>
-                            <li class="capitalize priceSubListItem">junior: 300kr</li>
-                            <li class="capitalize priceSubListItem">regular: 600kr</li>
-                            <li class="capitalize priceSubListItem">senior: 300kr</li>
-                        </ul>
-                    </li>
-                    <li>
-                          <h6 class="capitalize priceListItem">membership</h6>
-                         <ul>
-                            <li class="capitalize priceSubListItem">Student: 800kr</li>
-                            <li class="capitalize priceSubListItem">regular: 1200kr</li>
-                            <li class="capitalize priceSubListItem">senior: 600kr</li>
-                        </ul>
-                    </li>
+                <ul class="categoryList">
+                    <li>Senior: Above 65 years</li>
+                    <li>Junior: Below 12 years</li>
+                    <li>Studen: Requires student ID</li>
                 </ul>
-            </div>
-    </div>
-
-    <div class="col-md-6">
-
-
-        <img id="priceImg" src="assets/img/golfTrack2.jpg" alt="golfImg">
-            
-            <h4 class="sectionHeading text-center uppercase">Membership Benefits</h4>
             <br>
-            <div class="sectionHeading homeBlock">
-            <p>
-            The benefit of membership is that you get to golf anytime you want for an entire year. 
-            Additionally, you get a discount of 10% in the store, and up to 20% on selected items.
-            You will get sent newsletter about special events to your email and you get to participate 
-            in our members tournament. Further you will have a say in how the club operates in club 
-            meetings and participate in the community.           
-            </p>
-
+                <div class="sectionHeading homeBlock">
+                    <ul class="priceList">
+                        <li>
+                            <h6 class="capitalize priceListItem">one day pass</h6>
+                            <ul>
+                                <li class="capitalize priceSubListItem">junior: 30kr</li>
+                                <li class="capitalize priceSubListItem">regular: 60kr</li>
+                                <li class="capitalize priceSubListItem">senior: 30kr</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h6 class="capitalize priceListItem">one month pass</h6>
+                            <ul>
+                                <li class="capitalize priceSubListItem">junior: 300kr</li>
+                                <li class="capitalize priceSubListItem">regular: 600kr</li>
+                                <li class="capitalize priceSubListItem">senior: 300kr</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h6 class="capitalize priceListItem">membership</h6>
+                            <ul>
+                                <li class="capitalize priceSubListItem">Student: 800kr</li>
+                                <li class="capitalize priceSubListItem">regular: 1200kr</li>
+                                <li class="capitalize priceSubListItem">senior: 600kr</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
+        <div class="col-md-6">
+            <img id="priceImg" src="assets/img/golfTrack2.jpg" alt="golfImg">                
+                <h4 class="sectionHeading text-center uppercase">Membership Benefits</h4>
+                    <br>
+                <div class="sectionHeading homeBlock">
+                    <p>
+                        The benefit of membership is that you get to golf anytime you want for an entire year. 
+                        Additionally, you get a discount of 10% in the store, and up to 20% on selected items.
+                        You will get sent newsletter about special events to your email and you get to participate 
+                        in our members tournament. Further you will have a say in how the club operates in club 
+                        meetings and participate in the community.           
+                    </p>
+                </div>
+        </div>
     </div>
-
 </div>
 
 </section>
-
 
 <footer class="container-fluid">
     <div id="footerRow" class="row">
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Adress:</h4>
-            <p class="block">Swedish road name ##</p>
-            <p class="block">### ## municipality name</p>
+            <p class="block">Råsundavägen 16</p>
+            <p class="block">155 22 Solna</p>
         </div>
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Contact:</h4>
-            <p class="block">firstname.lastname@MGA.xxx</p>
-            <p class="block">### - ### ## ##</p>
+            <p class="block">lars.janson@mga.com</p>
+            <p class="block">070 - 111 22 99</p>
         </div>
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Social Media:</h4>

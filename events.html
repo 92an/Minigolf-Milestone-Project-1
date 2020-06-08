@@ -11,50 +11,52 @@
 </head>
 <body>
 
-<header>
 
-<!-- ----------------------------------------- Banner section --------------------------------------------------------- -->
-    
-    <div class="row">
+<header>
+<!--  Banner section  -->
+<div class="container-fluid">
+    <div class="row  no-gutters">
         <div class="col titleSection text-center titleSectionBGcolor" >
             <h1 class="sectionHeading text-uppercase">Miniature Golf Adventure</h1>
-            <h3 class="sectionSubheading text-uppercase">fun for for the whole family</h3>
+            <h3 class="sectionSubheading text-uppercase col d-none d-md-block">fun for for the whole family</h3>
         </div>
     </div>
-    <div class="row titleSectionBGcolor">
+    <div class="row  no-gutters titleSectionBGcolor">
         <div class="col d-none d-md-block">
-        <img src="assets/img/bannerImg2.jpg" alt="bannerImage" class="container-fluid bannerImage no-gutters">
+            <img src="assets/img/bannerImg2.jpg" alt="bannerImage" class="container-fluid bannerImage no-gutters">
         </div>
     </div>
+</div>
+<!--  Navigation Bar  -->
 
-<!-- ---------------------------------------- Navigation Bar --------------------------------------------------------- -->
-
-    <div class="row no-gutters navContainer">
-        <div class="col">
-            <ul id="nav" class="navBar list-inline text-center">
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem ">
-                    <a href="index.html" class="hvr-sweep-to-right"><span>Home</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="about.html"  class="hvr-sweep-to-right"><span>About</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem activeItem">
-                    <a href="events.html"  class="hvr-sweep-to-right"><span>Events</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="price.html"  class="hvr-sweep-to-right"><span>Price</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="contact.html"  class="hvr-sweep-to-right"><span>Contact</span></a>
-                </li>
-<!-- ---------------------------------------- inserted empty li for alignemtn --------------------------------------------------------- -->
-                <li>
-                </li>
-<!-- --------------------------------------------------------------- ------------------------------------------------------------------ -->
-            </ul>
-        </div>    
-    </div>
-
+        <nav class="navbar-nav">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapseNav">
+                <i class="fa fa-bars"></i>
+            </button> 
+                <div class="collapse navbar-collapse" id="collapseNav">               
+                    <ul id="nav" class="navBar list-inline text-center">
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem ">
+                            <a href="index.html" class="hvr-sweep-to-right"><span>Home</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="about.html"  class="hvr-sweep-to-right"><span>About</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem activeItem">
+                            <a href="events.html"  class="hvr-sweep-to-right"><span>Events</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="price.html"  class="hvr-sweep-to-right"><span>Price</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="contact.html"  class="hvr-sweep-to-right"><span>Contact</span></a>
+                        </li>
+    <!--  inserted empty li for alignemtn -->
+                        <li>
+                        </li>
+    <!--                                  -->
+                    </ul>
+                </div>
+        </nav>
 </header>
 
 
@@ -66,42 +68,35 @@
 </div>
 
 <img id="eventImg" src="assets/img/golfScene.jpg" alt="golfImage">
-
-<div class="row rowBot">
-    
-    <div class="col-md-6">
-            
-            <h4 class="sectionHeading text-center uppercase">Seniors Day Event</h4>
-            <br>
-            <div class="sectionHeading homeBlock">
-            <p>
-            The first Saturday every month we arrange a senior play event. Discounts on snacks for those over 65.
-            This event is organized and promoted by the senior citizen organization to encourage the elderly to partake
-            in an active lifestyle. This is also a great opportunity to bond with grandchildren.              
-            </p>
+    <div class="container">
+        <div class="row rowBot no-gutters">    
+            <div class="col-md-6">            
+                <h4 class="sectionHeading text-center uppercase">Seniors Day Event</h4>
+                    <br>
+                <div class="sectionHeading homeBlock">
+                    <p>
+                        The first Saturday every month we arrange a senior play event. Discounts on snacks for those over 65.
+                        This event is organized and promoted by the senior citizen organization to encourage the elderly to partake
+                        in an active lifestyle. This is also a great opportunity to bond with grandchildren.              
+                    </p>
+                </div>
             </div>
-    </div>
-
-    <div class="col-md-6">
-            
-            <h4 class="sectionHeading text-center uppercase">National tournaments</h4>
-            <br>
-            <div class="sectionHeading homeBlock">
-            <p>
-            In Sweden there are various national tournaments arranged in different counties with varying formats.
-            If you are interested in playing at a more professional level you can see what tournaments are currently
-            active in Sweden at the miniature golf federation.            
-            </p>
-            <br>
-            <p>
-            To see what tournaments are available: <a class="badge badge-pill badge-dark" target="_blank" href="https://www.bangolf.se/tavlingar/Inbjudningar/">click here</a>
-            </p>
+            <div class="col-md-6">    
+                <h4 class="sectionHeading text-center uppercase">National tournaments</h4>
+                    <br>
+                <div class="sectionHeading homeBlock">
+                    <p>
+                        In Sweden there are various national tournaments arranged in different counties with varying formats.
+                        If you are interested in playing at a more professional level you can see what tournaments are currently
+                        active in Sweden at the miniature golf federation.            
+                    </p>
+                    <p>
+                       To see what tournaments are available: <a class="badge badge-pill badge-dark" target="_blank" href="https://www.bangolf.se/tavlingar/Inbjudningar/">click here</a>
+                    </p>
+                </div>
             </div>
-
+        </div>
     </div>
-
-</div>
-
 </section>
 
 
@@ -109,13 +104,13 @@
     <div id="footerRow" class="row">
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Adress:</h4>
-            <p class="block">Swedish road name ##</p>
-            <p class="block">### ## municipality name</p>
+            <p class="block">Råsundavägen 16</p>
+            <p class="block">155 22 Solna</p>
         </div>
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Contact:</h4>
-            <p class="block">firstname.lastname@MGA.xxx</p>
-            <p class="block">### - ### ## ##</p>
+            <p class="block">lars.janson@mga.com</p>
+            <p class="block">070 - 111 22 99</p>
         </div>
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Social Media:</h4>

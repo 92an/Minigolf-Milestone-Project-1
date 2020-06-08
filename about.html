@@ -12,83 +12,78 @@
 <body>
 
 <header>
-
-<!-- ----------------------------------------- Banner section --------------------------------------------------------- -->
-    
-    <div class="row">
+<!--  Banner section  -->
+<div class="container-fluid">
+    <div class="row  no-gutters">
         <div class="col titleSection text-center titleSectionBGcolor" >
             <h1 class="sectionHeading text-uppercase">Miniature Golf Adventure</h1>
-            <h3 class="sectionSubheading text-uppercase">fun for for the whole family</h3>
+            <h3 class="sectionSubheading text-uppercase col d-none d-md-block">fun for for the whole family</h3>
         </div>
     </div>
-    <div class="row titleSectionBGcolor">
+    <div class="row  no-gutters titleSectionBGcolor">
         <div class="col d-none d-md-block">
-        <img src="assets/img/bannerImg2.jpg" alt="bannerImage" class="container-fluid bannerImage no-gutters">
+            <img src="assets/img/bannerImg2.jpg" alt="bannerImage" class="container-fluid bannerImage no-gutters">
         </div>
     </div>
+</div>
+<!--  Navigation Bar  -->
 
-<!-- ---------------------------------------- Navigation Bar --------------------------------------------------------- -->
-
-    <div class="row navContainer">
-        <div class="col">
-            <ul id="nav" class="navBar list-inline text-center">
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem ">
-                    <a href="index.html" class="hvr-sweep-to-right"><span>Home</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem activeItem">
-                    <a href="about.html"  class="hvr-sweep-to-right"><span>About</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="events.html"  class="hvr-sweep-to-right"><span>Events</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="price.html"  class="hvr-sweep-to-right"><span>Price</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="contact.html"  class="hvr-sweep-to-right"><span>Contact</span></a>
-                </li>
-<!-- ---------------------------------------- inserted empty li for alignemtn --------------------------------------------------------- -->
-                <li>
-                </li>
-<!-- --------------------------------------------------------------- ------------------------------------------------------------------ -->
-            </ul>
-        </div>    
-    </div>
-
+        <nav class="navbar-nav">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapseNav">
+                <i class="fa fa-bars"></i>
+            </button> 
+                <div class="collapse navbar-collapse" id="collapseNav">               
+                    <ul id="nav" class="navBar list-inline text-center">
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem ">
+                            <a href="index.html" class="hvr-sweep-to-right"><span>Home</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem activeItem">
+                            <a href="about.html"  class="hvr-sweep-to-right"><span>About</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="events.html"  class="hvr-sweep-to-right"><span>Events</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="price.html"  class="hvr-sweep-to-right"><span>Price</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="contact.html"  class="hvr-sweep-to-right"><span>Contact</span></a>
+                        </li>
+    <!--  inserted empty li for alignemtn -->
+                        <li>
+                        </li>
+    <!--                                  -->
+                    </ul>
+                </div>
+        </nav>
 </header>
 
-
 <section>
-
-    <div class="row rowBot">
+<div class="container">
+    <div class="row rowBot no-gutters">
         <div class="col-md-4">
-
-<!-- ---------------------------------------- About minigolf rules --------------------------------------------------------- -->
-
+<!--  About minigolf rules  -->
             <u><h4 class="sectionHeading text-center">How to play!</h4></u>
             <br>
             <div class="sectionHeading homeBlock">
-            <img id="ruleImg" src="assets/img/rulesImage.png" alt="golfImage">
+                <img id="ruleImg" src="assets/img/rulesImage.png" alt="golfImage">
             <br>
-
-            <ol id="rulesList">
-                <li>The game is played across 18 tracks.</li>
-                <li>It can be played individually or in a group.</li>
-                <li>The total limit of swings per track i 7, the one with the least swings wins.</li>
-                <li>The maximum number of swings is 126 and the least is 18.</li>
-                <li>The ball has to be placed in the designated possition at the start.</li>
-                <li>Some tracks have checkpoints you have to clear before you can proceed midway.</li>
-                <li>If such a checkpoints has passed you may place the ball the size of the golfclub putter away from the rim of the track.</li>
-                <li>if the ball goes out of the track it starts at the beginning</li>
-                <li>Certain tracks are made of concrete and you <b>MAY NOT</b> stand on them</li>
-            </ol>
+                <ol id="rulesList">
+                    <li>The game is played across 18 tracks.</li>
+                    <li>It can be played individually or in a group.</li>
+                    <li>The total limit of swings per track i 7, the one with the least swings wins.</li>
+                    <li>The maximum number of swings is 126 and the least is 18.</li>
+                    <li>The ball has to be placed in the designated possition at the start.</li>
+                    <li>Some tracks have checkpoints you have to clear before you can proceed midway.</li>
+                    <li>If such a checkpoints has passed you may place the ball the size of the golfclub putter away from the rim of the track.</li>
+                    <li>if the ball goes out of the track it starts at the beginning</li>
+                    <li>Certain tracks are made of concrete and you <b>MAY NOT</b> stand on them</li>
+                </ol>
+                <img id="ruleImg2" src="assets/img/cartoon.png" alt="golfImage">
             </div>
         </div>
-
-<!-- ---------------------------------------- About minigolf history --------------------------------------------------------- -->
-
-        <div class="col-md-8">
-            
+<!--  About minigolf history  -->
+        <div class="col-md-8">   
             <h4 class="sectionHeading text-center uppercase">About the club</h4>
             <br>
             <div class="sectionSubheading historySection">
@@ -100,15 +95,11 @@
                 type of material that is used. An interesting fact is that the Swedish minigolf federation was founded in 1939
                 making it one of the oldest, if not the oldest, minigolf sports organization in the world.             
             </p>
-
-
             <p>
                 There are today 4 different type of tracks currently
                 standardized courses supported by the World Minigolfsport Federation (WMF)
             </p>
-
             <br>
-
                 <ul>
                     <li>Beton</li>
                     <li>Eternite</li>
@@ -123,47 +114,43 @@
             </p>
 
             </div>
-            <br>
-            <img id="trackImage" src="assets/img/golfTrack.jpg" alt="GolfImage">
-            <br>
-
-
-<!-- ---------------------------------------- About minigolf ethics --------------------------------------------------------- -->
-            
-            <h4 class="sectionHeading text-center uppercase">Our Values</h4>
-            <br>
+                <br>
+                    <img id="trackImage" src="assets/img/golfTrack.jpg" alt="GolfImage">
+                <br>
+<!--  About minigolf ethics  -->            
+                    <h4 class="sectionHeading text-center uppercase">Our Values</h4>
+                <br>
             <div class="sectionSubheading historySection">
-            <p>
-            We at Miniature Golf Adventure embrace the value and ethical standards of the World Minigolf Sports Federation.
-           <b>Integrity</b> as sportsmen to ensure that we play fair and as such the game is fun for all. <b>Respect</b> of our opponents 
-            and fellow golfers to ensure the safety and wellbeing of all golfers. <b>Passion</b> for the sport and enthusiasm for 
-            competition and play. <b>Connecting generations</b> as this is a sport for all ages, religions, and backgrounds.             
-            </p>
+                <p>
+                    We at Miniature Golf Adventure embrace the value and ethical standards of the World Minigolf Sports Federation.
+                    <b>Integrity</b> as sportsmen to ensure that we play fair and as such the game is fun for all. <b>Respect</b> of our opponents 
+                    and fellow golfers to ensure the safety and wellbeing of all golfers. <b>Passion</b> for the sport and enthusiasm for 
+                    competition and play. <b>Connecting generations</b> as this is a sport for all ages, religions, and backgrounds.             
+                </p>
             <br>
-            <p>
-                For more information, see the World Minigolf Sports Federation website.
-            <br>
-                To see the values of World Minigolf Sports Federation: <a class="badge badge-pill badge-dark" target="_blank" href="https://gov.minigolfsport.com/structures/vision-mission-values-strategies">click here</a>
-            </p>
- 
+                <p>
+                    For more information, see the World Minigolf Sports Federation website.
+                <br>
+                    To see the values of World Minigolf Sports Federation: <a class="badge badge-pill badge-dark" target="_blank" href="https://gov.minigolfsport.com/structures/vision-mission-values-strategies">click here</a>
+                </p> 
+           </div>
         </div>
+            <br>
     </div>
-    <br>
-  </div>  
+</div>  
 </section>
-
 
 <footer class="container-fluid">
     <div id="footerRow" class="row">
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Adress:</h4>
-            <p class="block">Swedish road name ##</p>
-            <p class="block">### ## municipality name</p>
+            <p class="block">Råsundavägen 16</p>
+            <p class="block">155 22 Solna</p>
         </div>
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Contact:</h4>
-            <p class="block">firstname.lastname@MGA.xxx</p>
-            <p class="block">### - ### ## ##</p>
+            <p class="block">lars.janson@mga.com</p>
+            <p class="block">070 - 111 22 99</p>
         </div>
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Social Media:</h4>

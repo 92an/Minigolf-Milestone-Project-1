@@ -12,101 +12,97 @@
 <body>
 
 <header>
-
-<!-- ----------------------------------------- Banner section --------------------------------------------------------- -->
-    
-    <div class="row">
+<!--  Banner section  -->
+<div class="container-fluid">
+    <div class="row  no-gutters">
         <div class="col titleSection text-center titleSectionBGcolor" >
             <h1 class="sectionHeading text-uppercase">Miniature Golf Adventure</h1>
-            <h3 class="sectionSubheading text-uppercase">fun for for the whole family</h3>
+            <h3 class="sectionSubheading text-uppercase col d-none d-md-block">fun for for the whole family</h3>
         </div>
     </div>
-    <div class="row titleSectionBGcolor">
+    <div class="row  no-gutters titleSectionBGcolor">
         <div class="col d-none d-md-block">
-        <img src="assets/img/bannerImg2.jpg" alt="bannerImage" class="container-fluid bannerImage no-gutters">
+            <img src="assets/img/bannerImg2.jpg" alt="bannerImage" class="container-fluid bannerImage no-gutters">
         </div>
     </div>
+</div>
+<!--  Navigation Bar  -->
 
-<!-- ---------------------------------------- Navigation Bar --------------------------------------------------------- -->
-
-    <div class="row no-gutters navContainer">
-        <div class="col">
-            <ul id="nav" class="navBar list-inline text-center">
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem ">
-                    <a href="index.html" class="hvr-sweep-to-right"><span>Home</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="about.html"  class="hvr-sweep-to-right"><span>About</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem ">
-                    <a href="events.html"  class="hvr-sweep-to-right"><span>Events</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
-                    <a href="price.html"  class="hvr-sweep-to-right"><span>Price</span></a>
-                </li>
-                <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem activeItem">
-                    <a href="contact.html"  class="hvr-sweep-to-right"><span>Contact</span></a>
-                </li>
-<!-- ---------------------------------------- inserted empty li for alignemtn --------------------------------------------------------- -->
-                <li>
-                </li>
-<!-- --------------------------------------------------------------- ------------------------------------------------------------------ -->
-            </ul>
-        </div>    
-    </div>
-
+        <nav class="navbar-nav">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapseNav">
+                <i class="fa fa-bars"></i>
+            </button> 
+                <div class="collapse navbar-collapse" id="collapseNav">               
+                    <ul id="nav" class="navBar list-inline text-center">
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem ">
+                            <a href="index.html" class="hvr-sweep-to-right"><span>Home</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem ">
+                            <a href="about.html"  class="hvr-sweep-to-right"><span>About</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="events.html"  class="hvr-sweep-to-right"><span>Events</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem">
+                            <a href="price.html"  class="hvr-sweep-to-right"><span>Price</span></a>
+                        </li>
+                        <li class="col-12 col-md-6 col-sm-3 list-inline-item menuItem activeItem">
+                            <a href="contact.html"  class="hvr-sweep-to-right"><span>Contact</span></a>
+                        </li>
+    <!--  inserted empty li for alignemtn -->
+                        <li>
+                        </li>
+    <!--                                  -->
+                    </ul>
+                </div>
+        </nav>
 </header>
 
-
 <section>
-
-<form class="contactForm" method="post">
-<h2 class="sectionHeading text-center uppercase">Contact Form</h2>
-  <div class="row">
-    <div class="col">
-      <label class="sectionHeading" for="firstName">First Name</label>  
-      <input id="firstName" type="text" class="form-control" placeholder="First name" required>
-    </div>
-    <div class="col">
-      <label class="sectionHeading" for="lastName">Last Name</label> 
-      <input id="lastName" type="text" class="form-control" placeholder="Last name" required>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-        <label class="sectionHeading capitalize" for="InputEmail1">Email address</label>
-        <input type="email" class="form-control" id="InputEmail1" required>
-        <small id="emailHelp" class="sectionSubHeading form-text">We'll never share your email with anyone else.</small>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-    <label class="sectionHeading capitalize" for="Textarea">Message</label>
-    <textarea class="form-control" id="Textarea" rows="6" required></textarea>
-    </div>
-  </div>
-  <div class="row rowBot">
-    <div class="col">
-        <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
-    </div>
-  </div>
-</form>
-
-
+    <form class="contactForm" method="post">
+        <h2 class="sectionHeading text-center uppercase">Contact Form</h2>
+        <div class="row">
+            <div class="col">
+                <label class="sectionHeading" for="firstName">First Name</label>  
+                <input id="firstName" type="text" class="form-control" placeholder="First name" required>
+            </div>
+            <div class="col">
+                <label class="sectionHeading" for="lastName">Last Name</label> 
+                <input id="lastName" type="text" class="form-control" placeholder="Last name" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label class="sectionHeading capitalize" for="InputEmail1">Email address</label>
+                <input type="email" class="form-control" id="InputEmail1" required>
+                <small id="emailHelp" class="sectionSubHeading form-text">We'll never share your email with anyone else.</small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label class="sectionHeading capitalize" for="Textarea">Message</label>
+                <textarea class="form-control" id="Textarea" rows="6" required></textarea>
+            </div>
+        </div>
+        <div class="row rowBot">
+            <div class="col">
+                <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
 </section>
-
 
 <footer class="container-fluid">
     <div id="footerRow" class="row">
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Adress:</h4>
-            <p class="block">Swedish road name ##</p>
-            <p class="block">### ## municipality name</p>
+            <p class="block">Råsundavägen 16</p>
+            <p class="block">155 22 Solna</p>
         </div>
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Contact:</h4>
-            <p class="block">firstname.lastname@MGA.xxx</p>
-            <p class="block">### - ### ## ##</p>
+            <p class="block">lars.janson@mga.com</p>
+            <p class="block">070 - 111 22 99</p>
         </div>
         <div class="col-sm-4">
             <h4 class="uppercase sectionHeading text-center">Social Media:</h4>

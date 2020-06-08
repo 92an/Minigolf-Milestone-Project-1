@@ -23,10 +23,23 @@
     border-color: #fafafa;
 }
 
+.badge {
+    font-size: 0.9em;
+    margin-left: 10px;
+    margin-top:5px;
+    padding-bottom: 7px;
+}
+
 .badge-dark {
     color: yellow;
     background-color: black;
 }
+
+.container {
+    padding:0;
+}
+
+
 
 /*---------------  General rules */
 
@@ -66,12 +79,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .homeBlock {
-    margin: 0 15%;
+    margin: 0 5%;
 }
 
 .rowBot {
     margin-bottom: 50px;
     margin-top: 75px;
+}
+
+.container-fluid {
+    padding-left: 0; 
+    padding-right: 0;
 }
 
 /*---------------  hover.css effects */
@@ -103,10 +121,31 @@ h1, h2, h3, h4, h5, h6 {
     height: 350px;
 }
 
-.navContainer {
+
+
+nav {
     margin: 0;
     background-color: #0e351d;
 }
+
+.navbar-nav button {
+    display: inline;
+    background-color: #0e351d;
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.fa-bars {
+    color: #fafafa;
+}
+
 
 .list-inline-item {
     margin: 5px,0;
@@ -199,7 +238,7 @@ footer p {
 /*---------------  Home Section */
 
 .jumbotron {
-    margin: 20px auto;
+    margin: 10px auto;
     width: 75%;
     background: #f3e300
 }
@@ -224,13 +263,21 @@ footer p {
 #homeImage {
     display: block;
     margin: auto;
-    width: 80%;
+    height: 400px;
+    width: 100%;
 }
 
 /*---------------  About Section */
 
 #ruleImg {
     height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+#ruleImg2 {
+    height: 200px;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -317,6 +364,7 @@ footer p {
 #priceImg {
     display: block;
     height: 400px;
+    width: 100%;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -356,8 +404,13 @@ footer p {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    width: 30%;
 }
 
+.contactForm .btn:hover {
+    background-color: rgba(154, 184, 20, 0.3); 
+    border-color: yellow;
+}
 
 
 
