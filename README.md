@@ -11,6 +11,9 @@ https://92an.github.io/Minigolf-Milestone-Project-1/
 
 Tested withand built using Google Chrome
 
+Works on Internet Edge but not explorer 11. Recomend using Chrome.
+
+
 ### Aim
 
 The aim of this project is to create a website for a fictional miniature golf club in Sweden. This project uses HTML and CSS technologies. Primarily using the grid layout of bootstrap and a guiding principle. In addition, using animations from hover.css.
