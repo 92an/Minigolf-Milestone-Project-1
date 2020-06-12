@@ -9,26 +9,28 @@ https://92an.github.io/Minigolf-Milestone-Project-1/
     -Bootstrap
     -Hover.css
 
-Tested withand built using Google Chrome
+Built and tested with Google Chrome
 
-Works on Internet Edge but not explorer 11. Recomend using Chrome.
+Works on Microsoft Edge but not Internet Eplorer 11.
+Recomending to use Chrome when viewing the website.
 
 
 ### Aim
 
-The aim of this project is to create a website for a fictional miniature golf club in Sweden. This project uses HTML and CSS technologies. Primarily using the grid layout of bootstrap and a guiding principle. In addition, using animations from hover.css.
+The aim of this project is to create a website for a fictional miniature golf club in Sweden. This project uses HTML and CSS technologies. Primarily using the grid layout of bootstrap as a guiding principle. In addition, using animations from hover.css.
 
-### Enduser Analysis
+### End user Analysis
 
-The end users are the customers that are primarily in the age group 50+ and families with children. Since the main activity is physical and is done on site, limited web functionality will be required. Possible objective is to inform the enthusiast about the broader community and events by the Minigolf Federation. The main driver is ease of access, and inspire a fun, friendly and welcoming atmosphere.
+The end users are the customers that are primarily in the age group of 50+ and families with children. Since the main activity is physical and is done on site, limited web functionality will be required. Possible objective is to inform the enthusiast about the broader community and events by the Minigolf Federation. The main driver is ease of access, and to inspire a fun, friendly and welcoming atmosphere.
 
 ### Functionality and design philosophy
 
-The overall design inspires an green theme, similar to the felts that it is played on with a contrasting white. The other contrasts that are used is black, white and yellow for certain special functions, such as button, active page, and social media links. The banner is also not visible in the mobile format as the image gets too squished. For more critical information such as opening hours and prices a yellow background is used. A left to right hover effect is used on the menu is imitating the swing of the putter as a design choice.
+The overall design inspires a green theme, like the felts that it is played on with a contrasting white. The other contrasts that are used is black, white, and yellow for certain special functions, such as button, active page, and social media links. The banner is also not visible in the mobile format as the image gets too squished as well as the motto subheading. For more critical information such as opening hours and prices a yellow background is used. A left to right hover effect is used on the menu is imitating the swing of the putter as a design choice.
 
-The pages have similar structure but tweaked formats to not become boring. Using different features such a jumbotron, different column widths, alerts, and forms I hope to keep the user from getting bored. 
+The pages have similar structure but with tweaked formats so not to become boring. Using different features such a jumbotron, different column widths, alerts, and forms I hope to keep the user engaged with the site. 
 
 ### Further possible features 
+
 
  outside the scope of this current project
 
